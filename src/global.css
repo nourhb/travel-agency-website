@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Circular+Std:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-volkhov: Volkhov;
+  --font-manrope: Manrope;
+  --font-circular-std: "Circular Std";
+  --font-yesteryear: Yesteryear;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-481xl: 500px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-base-7: 16.7px;
+  --font-size-23xl: 42px;
+  --font-size-base: 16px;
+  --font-size-12xl-6: 31.6px;
+  --font-size-2xl: 21px;
+  --font-size-mid: 17px;
+  --font-size-138xl-4: 157.4px;
+  --font-size-sm: 14px;
+  --font-size-31xl: 50px;
+  --font-size-3xl: 22px;
+  --font-size-smi-2: 12.2px;
+  --font-size-21xl: 40px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-mid-3: 17.3px;
+  --font-size-10xl: 29px;
+  --font-size-smi-8: 12.8px;
+  --font-size-base-8: 16.8px;
+  --font-size-smi-5: 12.5px;
+  --font-size-lg-8: 18.8px;
+  --font-size-39xl-5: 58.5px;
+  --font-size-32xl-2: 51.2px;
+  --font-size-smi-7: 12.7px;
+  --font-size-5xl-9: 24.9px;
+  --font-size-xs-6: 11.6px;
+
+  /* Colors */
+  --black: #000;
+  --white: #fff;
+  --color-darkslategray-100: #343434;
+  --color-darkslategray-200: #2f2f2f;
+  --color-whitesmoke-100: #f8f8f8;
+  --color-whitesmoke-200: #f7f7f7;
+  --color-whitesmoke-300: #f5f5f5;
+  --color-whitesmoke-400: #ededed;
+  --color-whitesmoke-500: rgba(243, 243, 243, 0.6);
+  --color-gray-100: #7d7d7d;
+  --color-gray-200: #262626;
+  --color-gray-300: #181433;
+  --black1: #080808;
+  --color-gray-400: rgba(0, 0, 0, 0.59);
+  --color-gray-500: rgba(38, 38, 38, 0.13);
+  --color-gray-600: rgba(0, 0, 0, 0.26);
+  --color-salmon: #df6951;
+  --text-heading-color: #1e1d4c;
+  --color-darkslateblue-100: #181e4b;
+  --color-lavender: #eeeeff;
+  --color-slategray-100: #757095;
+  --text-clr: #5e6282;
+  --color-gainsboro-100: #e5e5ea;
+  --color-gainsboro-200: #e5e5e5;
+  --color-seashell: #ffefec;
+  --color-dimgray-100: #737373;
+  --color-dimgray-200: #525252;
+  --color-lightgray: #d0d0d0;
+  --color-papayawhip: #fff1da;
+  --nd: #6246e5;
+  --st: #ff7152;
+  --text-2: #84829a;
+
+  /* Gaps */
+  --gap-57xl: 76px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-lg: 18px;
+  --gap-12xl: 31px;
+  --gap-mini: 15px;
+  --gap-sm: 14px;
+  --gap-287xl: 306px;
+  --gap-188xl: 207px;
+  --gap-31xl: 50px;
+  --gap-288xl: 307px;
+  --gap-7xs: 6px;
+  --gap-mid: 17px;
+  --gap-11xs: 2px;
+  --gap-79xl: 98px;
+  --gap-9xl: 28px;
+  --gap-23xl: 42px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-0: 0px;
+  --padding-10xs: 3px;
+  --padding-5xs: 8px;
+  --padding-2xl-7: 21.7px;
+  --padding-6xs-6: 6.6px;
+  --padding-17xl-6: 36.6px;
+  --padding-3xs-4: 9.4px;
+  --padding-8xl-9: 27.9px;
+  --padding-5xs-2: 7.2px;
+  --padding-mini: 15px;
+  --padding-6xl: 25px;
+  --padding-8xs: 5px;
+  --padding-2xl: 21px;
+  --padding-3xl: 22px;
+  --padding-lgi: 19px;
+  --padding-84xl-6: 103.6px;
+  --padding-252xl: 271px;
+  --padding-244xl: 263px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-4xs: 9px;
+  --br-20xl: 39px;
+  --br-12xl: 31px;
+  --br-mid: 17px;
+  --br-15xl: 34px;
+  --br-2xl: 21px;
+  --br-5xs-6: 7.6px;
+  --br-6xl: 25px;
+  --br-10xs-1: 2.1px;
+  --br-7xs-2: 5.2px;
+  --br-lg: 18px;
+  --br-8xs: 5px;
+  --br-17xl: 36px;
+  --br-smi: 13px;
+  --br-11xl: 30px;
+  --br-7xl: 26px;
+  --br-27xl: 46px;
+  --br-8xs-1: 4.1px;
+  --br-7xs-8: 5.8px;
+}

@@ -1,0 +1,6 @@
+.screens-preview {
+  font-size: var(--font-size-481xl);
+  font-family: var(--font-poppins);
+  color: var(--black);
+  text-align: center;
+}
